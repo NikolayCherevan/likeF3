@@ -16,6 +16,28 @@ body {
     line-height: 40px;
     text-align: center;
 }
+#output {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.modal  {
+    max-width: 600px;
+    max-height: 300px;
+    margin: 100px auto;
+    overflow-y: auto;
+    background: #FFF;
+    padding: 20px;
+}
+.modal .modal-content {
+    font-size: x-large;
+}
+
+.seeAll {
+    position: fixed!important;
+    right: 20px;
+    bottom: 20px;
+}
   @media (min-width: 768px) {
     #sidebar {
       position: fixed;

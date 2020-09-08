@@ -22,20 +22,22 @@
                 <div class="mui-divider"></div>
                 <br>
                 <br>
-                <form class="mui-form">
+                <form id="form" class="mui-form">
 
                     <div class="mui-textfield mui-textfield--float-label">
-                        <input  min-length ="10" max-length = "300" type="text" id ="questions">
-                        <label for = "questions"> Change this text to ask</label>
+                        <input min-length="10" max-length="300" type="text" id="questions">
+                        <label for="questions"> Change this text to ask</label>
                     </div>
 
-                    <button type="submit" class="mui-btn mui-btn--primary">Submit</button>
+                    <button id ="submit" type="submit" class="mui-btn mui-btn--primary">Submit</button>
                 </form>
                 <br>
                 <br>
                 <div class="mui--text-dark-secondary mui--text-body2">RECENT POSTS</div>
                 <div class="mui-divider"></div>
                 <br>
+
+                <div id = "output"> </div>
                 <!--
                 <div class="mui--text-headline">MUI Acquires New Features</div>
                 <div class="mui--text-dark-secondary">By <a href="#">Team MUI</a> 3 days ago</div>
@@ -48,7 +50,7 @@
                     <a href="#">Read more...</a>
                 </div>
                 <br>-->
-
+                <button class ="mui-btn mui-btn--fab mui-btn--primary seeAll"> ALL </button>
             </div>
         </div>
     </div>
